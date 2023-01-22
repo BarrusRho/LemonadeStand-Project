@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3651360135822557922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3651360135822557920}
+  - component: {fileID: 3651360135822557921}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3651360135822557920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3651360135822557922}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3651360135822557921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3651360135822557922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49c38898ff826440a62e371faef1b86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baristaMoveSpeed: 1
+  firstBarista: {fileID: 0}
+  secondBarista: {fileID: 0}
+  firstBaristaHasSpawned: 0
+  secondBaristaHasSpawned: 0
+  firstCustomer: {fileID: 0}
+  secondCustomer: {fileID: 0}
+  thirdCustomer: {fileID: 0}
+  firstCustomerHasSpawned: 0
+  secondCustomerHasSpawned: 0
+  thirdCustomerHasSpawned: 0
+  confettiParticles: {fileID: 7415584035782349058, guid: d44d12c52484b6c479dea258ea5b47c6, type: 3}
+  unlockStandParticles: {fileID: 6247591881913104341, guid: 4cbe521c6a5059a4ab3f5606090b918a, type: 3}
+  coinParticles: {fileID: 629808376651066328, guid: b55ac423d88ae1f44877458d9a2826f1, type: 3}
+  unlockStand: {fileID: 0}
+  lemonadeUpgradeStand: {fileID: 0}
+  firstLemonadeStandMachine: {fileID: 0}
+  secondLemonadeStandMachine: {fileID: 0}
+  firstLemonadeStandHasSpawned: 0
+  secondLemonadeStandHasSpawned: 0
+  currentGold: 6
+  initialUnlockCost: 5
+  coinsAmountText: {fileID: 0}
+  currentLemonadeLevel: 1
+  maxLemonadeLevel: 25
+  lemonadeProfit: 6
+  profitIncrement: 3
+  upgradeCostIncrement: 7
+  prepareTime: 5
+  lemonadeUpgradeCost: 3
+  lemonadeUpgradeButton: {fileID: 0}
+  canUpgradeLemonadeImage: {fileID: 0}
+  firstFullStarImage: {fileID: 0}
+  secondFullStarImage: {fileID: 0}
+  lemonadeLevelText: {fileID: 0}
+  profitInfoText: {fileID: 0}
+  prepareTimeInfoText: {fileID: 0}
+  lemonadeUpgradeButtonText: {fileID: 0}
+  progressBar: {fileID: 0}
+  renovateCost: 850
+  renovateButton: {fileID: 0}
+  canRenovateImage: {fileID: 0}
+  secondCustomerUpgradeCost: 13
+  baristaUpgradeCost: 30
+  thirdCustomerUpgradeCost: 175
+  equipmentUpgradeCost: 250
+  secondCustomerUpgradeText: {fileID: 0}
+  baristaUpgradeText: {fileID: 0}
+  thirdCustomerUpgradeText: {fileID: 0}
+  equipmentUpgradeText: {fileID: 0}
+  secondCustomerUpgrade: {fileID: 0}
+  baristaUpgrade: {fileID: 0}
+  thirdCustomerUpgrade: {fileID: 0}
+  equipmentUpgrade: {fileID: 0}
+  canUpgradeUpgradeImage: {fileID: 0}
+  boostButton: {fileID: 0}
+  boostTimer: {fileID: 0}
+  isBoosting: 0
+  boostFactor: 2
+  boostMaxTime: 10
+  boostTimerText: {fileID: 0}

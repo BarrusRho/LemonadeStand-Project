@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6497500842360119389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8613151896846180672}
+  m_Layer: 0
+  m_Name: LemonadeStand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8613151896846180672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497500842360119389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8497478450614986125}
+  - {fileID: 3168851189947400468}
+  - {fileID: 484270244601667836}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1393533715948165516
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8613151896846180672}
+    m_Modifications:
+    - target: {fileID: 2097148139, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097148139, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097148139, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097148139, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivateLemonadeUpgradePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097148139, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LemonadeStand.Manager.UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097148139, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243054921667035438, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_Name
+      value: LemonadeUpgrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+--- !u!4 &8497478450614986125 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7402730491451784193, guid: 61f3561f71f16814fbf7811a2672416e, type: 3}
+  m_PrefabInstance: {fileID: 1393533715948165516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1703278221944058341
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8613151896846180672}
+    m_Modifications:
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8638795476795493854, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_Name
+      value: LemonadeStandMachine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+--- !u!4 &3168851189947400468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+  m_PrefabInstance: {fileID: 1703278221944058341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4242741465660772365
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8613151896846180672}
+    m_Modifications:
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8638795476795493854, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+      propertyPath: m_Name
+      value: LemonadeStandMachine (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+--- !u!4 &484270244601667836 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4348585919218053361, guid: f8951f607f3258745ab36c7ee9ffb667, type: 3}
+  m_PrefabInstance: {fileID: 4242741465660772365}
+  m_PrefabAsset: {fileID: 0}
